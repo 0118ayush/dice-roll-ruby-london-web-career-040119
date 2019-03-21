@@ -5,6 +5,7 @@
 newarray = [1, 2, 3, 4, 5, 6];
 
 def roll
-  newarray[rand(0..5)]
+  index = rand(0..5)
+  newarray[index]
 end
 
